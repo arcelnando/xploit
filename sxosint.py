@@ -65,8 +65,8 @@ def main():
     if isinstance(kecamatan_data, str):
         kecamatan_name, kode_pos = kecamatan_data.split("--")
     else:
-        kecamatan_name, kode_pos = kecamatan, "N/A"
-    print(f"{GREEN}!Nama Lengkap: {namalengkap}{RESET}") 
+        kecamatan_name, kode_pos = kecamatan, "N/
+        
     print(f"{GREEN}!Tanggal Lahir: {tanggal}/{bulan}/{tahun}{RESET}")
     print(f"{GREEN}!Jenis Kelamin: {jeniskelamin}{RESET}")
     print(f"{GREEN}!Provinsi: {provinsi}{RESET}")
